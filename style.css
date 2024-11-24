@@ -1,0 +1,714 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.topnav {
+    
+  width: 100%;
+  background-color: #596275;
+}
+
+.topnav__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  width: 1500px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.topnav__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.topnav__text {
+  /* Волоколамский район, пос. Чисмена, ул. Центральная, 1 */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #ffffff;
+}
+
+.topnav__btn {
+  /* Rectangle 4 */
+
+  width: 240px;
+  height: 50px;
+
+  background: #ffffff;
+  border-radius: 30px;
+
+  /* Закзать звонок */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar__wrapper {
+  width: 1500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navbar__link {
+  /* О компании */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.intro {
+  width: 100%;
+  background-image: url("img/intriImg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.intro__wrapper {
+  width: 1500px;
+  margin: auto;
+  padding: 150px 0;
+}
+
+.intro__title {
+  /* Тротуарная плитка в Волоколамске напрямую от производителя */
+
+  width: 780px;
+  margin-left: 300px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.intro__text {
+  /* Вам нужна качественная и недорогая тротуарная плитка в Волоколамске? Мы готовы предложить отличную возможность приобрести современные модели с высокими показателями эстетики и механической стойкости напрямую от производителя – компании «Мастер Строй». */
+
+  width: 745px;
+  height: 60px;
+  margin-left: 300px;
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.intro__btn {
+  margin-left: 300px;
+  margin-top: 50px;
+  /* Group 1 */
+
+  width: 240px;
+
+  /* Rectangle 6 */
+
+  position: absolute;
+
+  height: 60px;
+  left: 680px;
+  top: 494px;
+
+  background: #e05100;
+  border-radius: 30px;
+
+  /* Каталог */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+
+  border: none;
+}
+
+.intro__btn:hover {
+  background-color: #de6119;
+}
+
+.katalog {
+  width: 100%;
+  margin: 100px;
+}
+
+.katalog__wrapper {
+  width: 1500px;
+  margin-left: 300px;
+}
+
+.katalog__title {
+  /* Каталог продукции */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #000000;
+}
+
+.katalog__cards {
+  margin-left: 100px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.katalog__card {
+  /* Rectangle 24 */
+
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 280px;
+  height: 264px;
+}
+
+.katalog__btn {
+  margin-top: 30px;
+  margin-left: 600px;
+  /* Rectangle 32 */
+
+  width: 266px;
+  height: 60px;
+
+  background: #e05100;
+  border-radius: 30px;
+
+  /* Больше товаров */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+
+  border: none;
+}
+
+.about {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.about__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1500px;
+  margin: auto;
+}
+
+.about__right {
+  padding: 170px 0;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;
+  background-color: #404040;
+}
+
+.about__title {
+  /* О нас */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.about__text {
+  /* Наша компания готова помочь вам и с первым и со вторым аспектом данной задачи. В нашем каталоге вы сможете подобрать желаемый вариант материала и сразу заказать профессиональную укладку на вашем участке. Вниманию покупателей всегда доступна качественная и прочная тротуарная плитка от производителя по оптимальной стоимости. Если вам нужна надежная тротуарная плитка, купить в Волоколамском районе такой материал можно у нас, цена продукции из каталога вас приятно удивит и не ударит по бюджету. Оформить заказ можно прямо на сайте. Если в процессе выбора вам понадобится консультация специалиста, вы всегда можете заказать обратный звонок, используя специальную функцию на сайте, либо самостоятельно позвонить менеджеру по указанным телефонам. Теперь если вам нужна тротуарная плитка, вы знаете где ее можно приобрести. «Мастер Строй» - компания-производитель, которая гарантирует достойный уровень качества по приятной цене. ООО «МАСТЕ */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #ffffff;
+}
+
+.about__texts {
+  /* «Мастер Строй» - надежная и недорогая тротуарная плитка в Волоколамском районе */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.about__button {
+  /* Rectangle 46 */
+
+  width: 240px;
+  height: 60px;
+
+  background: #e05100;
+  border-radius: 30px;
+
+  /* Приобрести */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  border: none;
+}
+
+.tovar {
+  width: 100%;
+}
+
+.tovar__wrapper {
+  width: 1500px;
+  margin: 100px auto;
+}
+
+.tovar__title {
+  /* Топ товаров */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #000000;
+}
+
+.tovar__cards {
+    margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.tovar__card {
+  width: 450px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-box-shadow: 11px 14px 24px 7px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 11px 14px 24px 7px rgba(34, 60, 80, 0.2);
+  box-shadow: 11px 14px 24px 7px rgba(34, 60, 80, 0.2);
+  border-radius: 25px;
+}
+
+.tovar__card-right {
+  position: relative;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #404040;
+  width: 100%;
+  height: 100%;
+  flex: 0.3;
+  padding: 20px;
+}
+
+.tovar__card-left {
+  flex: 0.7;
+  padding: 50px;
+}
+
+.tovar__name {
+  /* Брусчатка 200x100x50 */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.tovar__card-left p {
+  /* Размер: 200x100x50мм */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #000000;
+
+  margin-top: 10px;
+}
+
+.tovar__color {
+  margin-top: 20px;
+  display: flex;
+  gap: 5px;
+}
+
+.tovar__color div {
+  width: 20px;
+  height: 20px;
+  background-color: #737373;
+}
+
+.tovar__color div:nth-child(2) {
+  background-color: #9c0909;
+}
+
+.tovar__color div:nth-child(3) {
+  background-color: #d48d37;
+}
+
+.tovar__color div:nth-child(4) {
+  background-color: #964b00;
+}
+
+.tovar__color div:nth-child(5) {
+  background-color: #dc143c;
+}
+
+.tovar__color div:nth-child(6) {
+  background-color: #49423d;
+}
+
+.tovar__color div:nth-child(7) {
+  background-color: #d77d31;
+}
+
+.tovar__color div:nth-child(8) {
+  background-color: #000000;
+}
+
+.tovar__about h4 {
+  /* Серый 440 руб кв/м Красный 500 руб кв/м Коричневый 550 руб кв/м Желтый 700 руб кв/м Другие цвета по запросу */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 149.4%;
+  /* or 18px */
+
+  color: #ffffff;
+}
+
+.tovar__about p {
+  /* Серый 440 руб кв/м Красный 500 руб кв/м Коричневый 550 руб кв/м Желтый 700 руб кв/м Другие цвета по запросу */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.tovar__plus {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 40px;
+  background-color: #e05100;
+  color: white;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+
+.generate{
+
+background-color: #404040;
+}
+
+.generate__wrapper{
+    gap: 40px;
+    margin: 100px auto;
+    width: 1500px;
+    height: 600px;
+    display: flex;
+}
+
+.generate__title{
+  
+
+  /* О производстве */
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 43px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.generate__image{
+  width: 230px;
+  height: 95px;
+  background-color: white;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.generate__card{
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.generate__text{
+  /* Доставка и разгрузка плитки краном-манипулятором */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+
+
+}
+
+.our{
+  width: 100%;
+
+}
+
+.our__wapper{
+    width: 1500px;
+    margin: 100px auto;
+  
+}
+
+.our__title{
+  /* Наши работы */
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 43px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+}
+
+.our__text{
+  /* Отделка участка, сада, входной группы или любой другой частной территории требует большого внимания со стороны владельца, поскольку именно эти зоны являются «лицом», а значит и престижем вашего дома или коммерческого объекта. Подбор прочного и эстетически презентабельного материала для оформления входа, дорожек, пешеходных зон – это уже половина успеха отделки. Вторая половина – это, безусловно, грамотная укладка, обеспечивающая долговечность покрытия. */
+
+margin-top: 20px;
+
+
+height: 60px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+
+color: #000000;
+
+
+}
+
+.our__images{
+  margin: auto;
+  width: 1200px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+  
+  display: flex;
+}
+
+.feature{
+  width: 100%;
+  margin-left: 350px;
+}
+
+.feature__wrapper{
+  width: 1500px;
+  background-color: #404040;
+}
+
+.feature__title{
+  /* Наши преимущества */
+
+margin-top: 10px;
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 43px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.feature__cards{
+  margin-top: 30px;
+  margin-left: 150px;
+  width: 1200px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.feature__card{
+  margin: 10px auto;
+  width: 330px;
+  height: 320px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.feature__card img{
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.feature__card-title{
+  /* Тротуарная плитка от производителя в широком ассортименте */
+
+margin-top: 20px;
+margin-bottom:  20px;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+
+}
+
+.feature__text{
+  /* На сайте вы сможете подобрать прессованную, вибролитую или фасадную плитку, блоки и бордюры, водостоки, крышки на столбы и многое другое. */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+
+}
+
+.card{
+  margin-left: 700px;
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+}
